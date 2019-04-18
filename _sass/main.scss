@@ -99,11 +99,6 @@ $panel-block-hover-background-color: $blue;
 // inhoudsopgave
 ol.menu-list {
     color: $pink;
-    list-style-type: none;
-}
-
-ol.menu-list li:before {
-    counter-increment: li;
     content: counter(li, decimal-leading-zero);
 }
 
