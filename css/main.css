@@ -6959,8 +6959,26 @@ label.panel-block {
   text-decoration: none; }
 
 .content ol {
-  list-style-type: decimal-leading-zero !important;
-  color: #ff00ff; }
+  list-style-type: none;
+  color: #ff00ff;
+  list-style-position: outside;
+  margin-top: 1em;
+  margin-left: 2em; }
+
+.content ol > li {
+  counter-increment: customlistcounter;
+  margin: 20px 0px; }
+
+.content ol > li:before {
+  content: "0" counter(customlistcounter) "";
+  text-align: left;
+  margin: 4px 4px; }
+
+.menu-list a {
+  border-radius: 2px;
+  color: #4a4a4a;
+  padding: 0.5em 0.75em;
+  margin: 10px 10px 10px 0px; }
 
 .content h1,
 .content h2,
