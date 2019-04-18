@@ -23,9 +23,10 @@ $grey: #1D1D1B;
 
 
 // Update the sans-serif font family
-$family-sans-serif: "Roboto", sans-serif;
+$family-sans-serif: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-primary: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-serif: "Playfair Display", "serif";
-
+$body-line-height: 28px;
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
