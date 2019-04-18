@@ -6958,6 +6958,9 @@ label.panel-block {
   padding-bottom: 3px;
   text-decoration: none; }
 
+.content ol:not([type]) {
+  list-style-type: none !important; }
+
 .content ol {
   list-style-type: none;
   color: #ff00ff;

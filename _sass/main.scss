@@ -80,6 +80,10 @@ $panel-block-hover-background-color: $blue;
 }
 
 // inhoudsopgave
+.content ol:not([type]) {
+    list-style-type: none!important;
+}
+
 .content ol {
     list-style-type: none;
     color: #ff00ff;
