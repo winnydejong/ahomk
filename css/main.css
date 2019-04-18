@@ -6949,22 +6949,6 @@ label.panel-block {
   background: url(golf.svg) bottom repeat-x;
   content: ''; }
 
-ol.menu-list {
-  color: #FF00FF;
-  content: "";
-  counter-reset: item;
-  list-style-type: none; }
-
-content ol:not([type]),
-ol.menu-list li {
-  display: block; }
-
-content ol:not([type]) li:before,
-ol.menu-list li:before {
-  content: counter(item) "  ";
-  counter-increment: item;
-  list-style-type: decimal-leading-zero; }
-
 .content h1,
 .content h2,
 .content h3,
@@ -7026,7 +7010,8 @@ hr:after {
   margin-left: 20px; }
 
 code {
-  color: #FF00FF !important; }
+  color: #FF00FF !important;
+  background-color: whitesmoke !important; }
 
 div.tldr {
   border: 1px solid black;
