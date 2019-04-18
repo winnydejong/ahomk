@@ -56,8 +56,10 @@ $panel-block-hover-background-color: $blue;
     background: url(img/golf.png) bottom repeat-x;
 }
 
-.curly {
-    background: url(/img/golf.png) bottom repeat-x;
+span.curly:after {
+    background-image: url(golf.png);
+    background-repeat: repeat-x;
+    background-position: 50% 115%;
 }
 
 .subtitle.is-4 {
