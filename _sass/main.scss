@@ -56,17 +56,44 @@ $panel-block-hover-background-color: $blue;
     background: url(img/golf.png) bottom repeat-x;
 }
 
-span.curly:after {
-    background-image: url(golf.png);
-    background-repeat: repeat-x;
-    background-position: 50% 115%;
-}
-
 .subtitle.is-4 {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
+
+// pink underline
+
+.curly {
+  // Use the default underline for browsers that
+  // don’t support @supports (<= IE11)
+  text-decoration: underline;
+  color: $pink;
+  // Use the filter in browsers that support @supports, but aren’t Safari
+  @supports not (-webkit-text-decoration-skip: objects) {
+    filter: url('#svg-underline');
+    text-decoration: none;
+  }
+
+  // And then disable the filter in Edge and
+  // use the default underline instead
+  @supports (-ms-ime-align: auto) {
+    color: red;
+    filter: none;
+    text-decoration: underline;
+  }
+}
+
+// Remove the SVG from the UI, but keep it the layout.
+// This makes sure Firefox can reference the SVG filter.
+
+.visuallyHidden {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  width: 1px;
+}
+
 
 
 // inhoudsopgave
