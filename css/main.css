@@ -6945,6 +6945,7 @@ label.panel-block {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem; }
 
+.curl,
 span.curly {
   text-decoration-line: underline;
   text-decoration-style: wavy;
