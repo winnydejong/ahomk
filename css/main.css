@@ -6933,5 +6933,11 @@ label.panel-block {
   padding-bottom: 0rem;
   padding-left: 2rem;
   font-family: "Playfair Display", "serif";
-  font-size: 3rem;
-  font-weight: 900; }
+  font-size: 3rem; }
+
+.title span {
+  font-weight: 900;
+  font-style: italic; }
+
+.curly {
+  background: url(img/golf.png) bottom repeat-x; }

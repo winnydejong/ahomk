@@ -44,5 +44,13 @@ $primary: $red;
   padding-left: 2rem;
   font-family: "Playfair Display", "serif";
   font-size: 3rem;
-  font-weight: 900;
+}
+
+.title span {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.curly {
+    background: url(img/golf.png) bottom repeat-x;
 }
