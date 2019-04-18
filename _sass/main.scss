@@ -61,6 +61,8 @@ $panel-block-hover-background-color: $blue;
 .terug,
 .terug a {
     color: $black;
+    display: inline-block;
+    align-self: right;
 }
 
 .terug,

@@ -6946,7 +6946,9 @@ label.panel-block {
 
 .terug,
 .terug a {
-  color: #000000; }
+  color: #000000;
+  display: inline-block;
+  align-self: right; }
 
 .terug,
 .curly {
