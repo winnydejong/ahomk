@@ -6927,13 +6927,14 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-.title {
+.title.is-2 {
   padding-top: 3rem;
   padding-right: 2rem;
   padding-bottom: 0rem;
   padding-left: 2rem;
   font-family: "Playfair Display", "serif";
-  font-size: 3rem; }
+  font-size: 3.5rem;
+  font-weight: 300; }
 
 .title span {
   font-weight: 900;
@@ -6942,10 +6943,10 @@ label.panel-block {
 .curly {
   background: url(img/golf.png) bottom repeat-x; }
 
-.subtitle {
+.subtitle.is-4 {
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem; }
+  font-size: 2rem; }
 
 .menu-list ul {
   list-style-image: url("/img/handRechts.png"); }
