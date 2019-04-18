@@ -171,8 +171,17 @@ code {
     color: $pink!important;
 }
 
+//tldr
+div.tldr {
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 15px;
+}
+
+
 // footer
 footer a {
     color: $black;
     font-decoration: underline;
 }
+

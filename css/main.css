@@ -7031,6 +7031,11 @@ hr:after {
 code {
   color: #FF00FF !important; }
 
+div.tldr {
+  border: 1px solid black;
+  padding: 20px 10px;
+  margin: 15px; }
+
 footer a {
   color: #000000;
   font-decoration: underline; }
