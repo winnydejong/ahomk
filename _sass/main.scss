@@ -58,6 +58,13 @@ $panel-block-hover-background-color: $blue;
     text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
 }
 
+// terug + curly
+.terug,
+.terug a {
+    color: $black;
+}
+
+.terug,
 .curly {
     border-bottom-color: transparent;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'  viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff00ff' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
@@ -105,7 +112,6 @@ $panel-block-hover-background-color: $blue;
     margin: 10px 10px 10px 0px;
     display: inline;
 }
-
 
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
