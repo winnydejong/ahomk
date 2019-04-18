@@ -73,7 +73,7 @@ $primary: $red;
 }
 
 // divider
-div.is-divider {
+div.is-divider, hr.verdeler {
     display: list-item;
     list-style: url(img/golf.png) center center no-repeat;
     filter: alpha(opacity=0);
