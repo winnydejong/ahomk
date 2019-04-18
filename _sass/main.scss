@@ -104,7 +104,7 @@ span.hfdnr {
 
 // divider
 hr {
-    background: url('img/golf.png') no-repeat top center;
+    background: url(golf.png) no-repeat top center;
     background-size: contain;
     display: block;
     height: 18px;
@@ -131,3 +131,5 @@ hr:after {
     left: 50%;
     margin-left: 10px;
 }
+
+// footer
