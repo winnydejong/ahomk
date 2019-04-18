@@ -68,7 +68,7 @@ $primary: $red;
 
 
 // inhoudsopgave
-.menu-list ul {
+.menu-list ul, .menu-list ul li, .menu-list li {
   list-style-image: url(/img/handRechts.png);
 }
 
