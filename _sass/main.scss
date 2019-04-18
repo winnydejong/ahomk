@@ -78,6 +78,8 @@ $panel-block-hover-background-color: $blue;
     color: $black;
 }
 
+.content h2:not(:first-child),
+.content h2(:first-child),
 .content h2 {
     font-weight: 300;
     font-size: 2.5rem;
