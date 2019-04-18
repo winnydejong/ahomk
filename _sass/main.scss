@@ -109,7 +109,8 @@ ol.menu-list {
 }
 
 .content h2,
-.content h2:not(:first-child) {
+.content h2:not(:first-child),
+content h2:not(:first-child) {
     font-weight: 300;
     font-size: 2.5rem;
     line-height: 4.9rem;
