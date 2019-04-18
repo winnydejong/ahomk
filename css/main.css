@@ -6946,7 +6946,7 @@ label.panel-block {
   font-size: 1.5rem; }
 
 .curly::after {
-  background: url(golf.svg) bottom repeat-x;
+  background: url(../img/golf.svg) bottom repeat-x;
   content: ''; }
 
 ol.menu-list {
