@@ -200,6 +200,16 @@ hr:after {
     padding: 1.25rem;
 }
 
+.boxblueblack {
+    background-color: $white;
+    border-radius: 0px;
+    border: 1px $black solid;
+    box-shadow: -3px 3px $blue, -2px 2px $blue, -1px 1px $blue;
+    color: $black;
+    display: block;
+    padding: 1.25rem;
+}
+
 // code
 code {
     color: $pink!important;
