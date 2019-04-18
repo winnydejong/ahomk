@@ -6981,7 +6981,8 @@ label.panel-block {
   border-radius: 2px;
   color: #4a4a4a;
   padding: 0.5em 0.75em;
-  margin: 10px 10px 10px 0px; }
+  margin: 10px 10px 10px 0px;
+  display: inline; }
 
 .content h1,
 .content h2,
