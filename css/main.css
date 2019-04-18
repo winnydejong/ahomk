@@ -6941,12 +6941,13 @@ label.panel-block {
 .ongeveer {
   font-weight: 900;
   font-style: italic;
-  display: inline; }
+  display: inline;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; }
 
 .curly {
   border-bottom-color: transparent;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'  viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff00ff' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: 0 1.2em;
+  background-position: 0 1.15em;
   background-size: auto 5px;
   background-repeat: repeat-x;
   padding-bottom: 3px;
