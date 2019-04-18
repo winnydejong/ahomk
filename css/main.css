@@ -6938,32 +6938,17 @@ label.panel-block {
 
 .title span {
   font-weight: 900;
-  font-style: italic;
-  background: url(img/golf.png) bottom repeat-x; }
+  font-style: italic; }
 
 .subtitle.is-4 {
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem; }
 
-.curly {
-  text-decoration: underline;
-  color: #FF00FF; }
-  @supports not (-webkit-text-decoration-skip: objects) {
-    .curly {
-      filter: url("#svg-underline");
-      text-decoration: none; } }
-  @supports (-ms-ime-align: auto) {
-    .curly {
-      color: red;
-      filter: none;
-      text-decoration: underline; } }
-
-.visuallyHidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  width: 1px; }
+span.curly {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #FF00FF; }
 
 ol.menu-list {
   color: #FF00FF;
