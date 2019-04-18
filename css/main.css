@@ -6928,7 +6928,7 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .title {
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-right: 2rem;
   padding-bottom: 0rem;
   padding-left: 2rem;
@@ -6940,7 +6940,12 @@ label.panel-block {
 
 .ongeveer {
   font-weight: 900;
-  font-style: italic; }
+  font-style: italic;
+  display: inline; }
+
+.curly:after {
+  display: inline;
+  background: url(golf.svg) repeat-x bottom; }
 
 .subtitle {
   font-weight: 300 !important;

@@ -41,7 +41,7 @@ $panel-block-hover-background-color: $blue;
 
 // header
 .title {
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-right: 2rem;
     padding-bottom: 0rem;
     padding-left: 2rem;
@@ -54,6 +54,12 @@ $panel-block-hover-background-color: $blue;
 .ongeveer {
     font-weight: 900;
     font-style: italic;
+    display: inline;
+}
+
+.curly:after {
+    display: inline;
+    background: url(golf.svg) repeat-x bottom;
 }
 
 .subtitle {
