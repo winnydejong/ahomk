@@ -69,6 +69,10 @@ $panel-block-hover-background-color: $blue;
 }
 
 // inhoudsopgave
+.content ol {
+    list-style-type: decimal-leading-zero!important;
+    color: #ff00ff;
+}
 
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {

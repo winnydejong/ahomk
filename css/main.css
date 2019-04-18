@@ -6949,6 +6949,10 @@ label.panel-block {
   background: url(golf.svg) bottom repeat-x;
   content: ''; }
 
+.content ol {
+  list-style-type: decimal-leading-zero !important;
+  color: #ff00ff; }
+
 .content h1,
 .content h2,
 .content h3,
