@@ -6969,6 +6969,10 @@ ol.menu-list {
   color: #FF00FF;
   list-style-type: decimal-leading-zero; }
 
+ol.menu-list li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero); }
+
 .content h1,
 .content h2,
 .content h3,

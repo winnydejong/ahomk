@@ -102,6 +102,11 @@ ol.menu-list {
     list-style-type: decimal-leading-zero;
 }
 
+ol.menu-list li:before {
+    counter-increment: li;
+    content: counter(li, decimal-leading-zero);
+}
+
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-family: $family-primary;
