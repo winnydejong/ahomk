@@ -5134,7 +5134,7 @@ label.panel-block {
   cursor: pointer; }
   a.panel-block:hover,
   label.panel-block:hover {
-    background-color: whitesmoke; }
+    background-color: #00FFFF; }
 
 .panel-icon {
   display: inline-block;
@@ -6941,23 +6941,33 @@ label.panel-block {
   font-style: italic;
   background: url(img/golf.png) bottom repeat-x; }
 
-.curly {
-  background: url(img/golf.png) bottom repeat-x; }
-
 .subtitle.is-4 {
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem; }
 
-.menu-list ul {
-  list-style-image: url(/img/handRechts.png); }
+.curly {
+  text-decoration: underline;
+  color: #FF00FF; }
+  @supports not (-webkit-text-decoration-skip: objects) {
+    .curly {
+      filter: url("#svg-underline");
+      text-decoration: none; } }
+  @supports (-ms-ime-align: auto) {
+    .curly {
+      color: red;
+      filter: none;
+      text-decoration: underline; } }
 
-div.is-divider {
-  display: list-item;
-  list-style: url(img/golf.png) center center no-repeat;
-  filter: alpha(opacity=0);
-  width: 0;
-  margin-top: -10px; }
+.visuallyHidden {
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  width: 1px; }
+
+ol.menu-list {
+  color: #FF00FF;
+  list-style-type: decimal-leading-zero; }
 
 .content h1,
 .content h2,
@@ -6968,10 +6978,59 @@ div.is-divider {
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #000000; }
 
-.content h2 {
+.content h2,
+.content h2:not(:first-child),
+content h2:not(:first-child) {
   font-weight: 300;
   font-size: 2.5rem;
-  line-height: 4.9rem; }
+  line-height: 4.9rem;
+  margin-top: 1.1428em;
+  text-align: center; }
 
 span.hfdnr {
   color: #FF00FF; }
+
+.content h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 3.16rem; }
+
+.notitie {
+  font-family: "Playfair Display", "serif";
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #1D1D1B; }
+
+hr {
+  background: url(golf.png) no-repeat top center;
+  background-size: contain;
+  display: block;
+  height: 18px;
+  border: 0;
+  position: relative; }
+
+hr:before,
+hr:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #1D1D1B;
+  height: 2px;
+  top: 8px; }
+
+hr:before {
+  left: 0;
+  right: 50%;
+  margin-right: 10px; }
+
+hr:after {
+  right: 0;
+  left: 50%;
+  margin-left: 10px; }
+
+code {
+  color: #FF00FF !important; }
+
+footer a {
+  color: #000000;
+  font-decoration: underline; }
