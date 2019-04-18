@@ -1145,7 +1145,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .box {
   background-color: white;
-  border-radius: 0px;
+  border-radius: 6px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   color: #4a4a4a;
   display: block;
@@ -7048,6 +7048,15 @@ hr:after {
   right: 0;
   left: 50%;
   margin-left: 20px; }
+
+.box {
+  background-color: white;
+  border-radius: 0px;
+  border: 1px #000000 solid;
+  box-shadow: -3px 3px #000000, -2px 2px #000000, -1px 1px #000000;
+  color: #000000;
+  display: block;
+  padding: 1.25rem; }
 
 code {
   color: #FF00FF !important;

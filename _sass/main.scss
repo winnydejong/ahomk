@@ -20,7 +20,6 @@ $yellow: #FFFF00;
 $blue: #00FFFF;
 $black: #000000;
 $grey: #1D1D1B;
-$box-radius: 0px;
 
 // Update the sans-serif font family
 $family-sans-serif: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -176,6 +175,17 @@ hr:after {
     right: 0;
     left: 50%;
     margin-left: 20px;
+}
+
+// box
+.box {
+    background-color: $white;
+    border-radius: 0px;
+    border: 1px $black solid;
+    box-shadow: -3px 3px $black, -2px 2px $black, -1px 1px $black;
+    color: $black;
+    display: block;
+    padding: 1.25rem;
 }
 
 // code
