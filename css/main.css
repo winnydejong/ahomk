@@ -6941,3 +6941,8 @@ label.panel-block {
 
 .curly {
   background: url(img/golf.png) bottom repeat-x; }
+
+.subtitle {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; }
