@@ -63,11 +63,9 @@ $panel-block-hover-background-color: $blue;
 
 // pink underline
 
-.curl,
-span.curly {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: $pink;
+span.curly:after {
+    background-image: url('golf.svg');
+    content: '';
 }
 
 // inhoudsopgave

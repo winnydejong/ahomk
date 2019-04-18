@@ -6945,11 +6945,9 @@ label.panel-block {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem; }
 
-.curl,
-span.curly {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #FF00FF; }
+span.curly:after {
+  background-image: url("golf.svg");
+  content: ''; }
 
 ol.menu-list {
   color: #FF00FF;
