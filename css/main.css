@@ -6950,3 +6950,10 @@ label.panel-block {
 
 .menu-list ul {
   list-style-image: url(/img/handRechts.png); }
+
+div.is-divider {
+  display: list-item;
+  list-style: url(img/golf.png) inside;
+  filter: alpha(opacity=0);
+  width: 0;
+  margin-top: -10px; }
