@@ -71,8 +71,22 @@ $panel-block-hover-background-color: $blue;
 // inhoudsopgave
 ol.menu-list {
     color: $pink;
-    content: counter(li, decimal-leading-zero);
+    content: "";
+    counter-reset: item;
+    list-style-type: none;
 }
+content ol:not([type]),
+ol.menu-list li {
+display: block;
+}
+
+content ol:not([type]) li:before,
+ol.menu-list li:before {
+    content: counter(item) "  ";
+    counter-increment: item;
+    list-style-type: decimal-leading-zero;
+}
+
 
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {

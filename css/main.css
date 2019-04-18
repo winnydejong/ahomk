@@ -6951,7 +6951,19 @@ label.panel-block {
 
 ol.menu-list {
   color: #FF00FF;
-  content: counter(li, decimal-leading-zero); }
+  content: "";
+  counter-reset: item;
+  list-style-type: none; }
+
+content ol:not([type]),
+ol.menu-list li {
+  display: block; }
+
+content ol:not([type]) li:before,
+ol.menu-list li:before {
+  content: counter(item) "  ";
+  counter-increment: item;
+  list-style-type: decimal-leading-zero; }
 
 .content h1,
 .content h2,
