@@ -75,14 +75,17 @@ $panel-block-hover-background-color: $blue;
     color: $black;
 }
 
-.content h2:not(:first-child),
-.content h2(:first-child),
-.content h2 {
+.content h2,
+.content h2:not(:first-child) {
     font-weight: 300;
     font-size: 2.5rem;
     line-height: 4.9rem;
+    margin-top: 1.1428em;
     text-align: center;
 }
+
+
+
 
 span.hfdnr {
     color: $pink;
