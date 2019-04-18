@@ -7032,6 +7032,9 @@ div.tldr {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent; }
 
+foorter {
+  padding: 10rem 1.5rem 1.5rem; }
+
 footer a {
-  color: #000000;
-  font-decoration: underline; }
+  color: #4a4a4a;
+  text-decoration: underline; }
