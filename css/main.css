@@ -6998,8 +6998,7 @@ span.hfdnr {
   color: #1D1D1B; }
 
 hr {
-  background: url("golf.svg") no-repeat top center;
-  background-size: contain;
+  background: url("golf.svg") no-repeat center center;
   display: block;
   height: 18px;
   border: 0;
@@ -7018,12 +7017,12 @@ hr:after {
 hr:before {
   left: 0;
   right: 50%;
-  margin-right: 10px; }
+  margin-right: 20px; }
 
 hr:after {
   right: 0;
   left: 50%;
-  margin-left: 10px; }
+  margin-left: 20px; }
 
 code {
   color: #FF00FF !important; }
