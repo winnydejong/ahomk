@@ -72,15 +72,6 @@ $panel-block-hover-background-color: $blue;
   list-style-image: url(/img/handRechts.png);
 }
 
-// divider
-div.is-divider, hr.verdeler {
-    display: list-item;
-    list-style: url(img/golf.png) center center no-repeat;
-    filter: alpha(opacity=0);
-    width: 0;
-    margin-top:-10px;
-}
-
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-family: $family-primary;
@@ -110,4 +101,34 @@ span.hfdnr {
     font-size: 1.25rem;
     line-height: 2rem;
     color: $grey;
+}
+
+// divider
+hr {
+    background: url('img/golf.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: $grey;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
 }
