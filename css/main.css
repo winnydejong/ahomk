@@ -6967,7 +6967,7 @@ label.panel-block {
 
 ol.menu-list {
   color: #FF00FF;
-  list-style-type: decimal-leading-zero; }
+  list-style-type: none; }
 
 ol.menu-list li:before {
   counter-increment: li;
