@@ -7002,12 +7002,13 @@ span.hfdnr {
   color: #1D1D1B; }
 
 hr {
-  background: url(golf.png) no-repeat top center;
+  background: url("golf.png") no-repeat top center;
   background-size: contain;
   display: block;
   height: 18px;
   border: 0;
-  position: relative; }
+  position: relative;
+  margin: 50px 0ps; }
 
 hr:before,
 hr:after {
