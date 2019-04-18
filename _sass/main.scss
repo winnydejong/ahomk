@@ -125,11 +125,12 @@ span.hfdnr {
 // divider
 hr {
     background: url('golf.svg') no-repeat center center;
+    background-size: 4%;
     display: block;
     height: 18px;
     border: 0;
     position: relative;
-    margin: 50px 0ps;
+    margin: 3.5rem 0;
 }
 
 hr:before,
@@ -137,7 +138,7 @@ hr:after {
     content: '';
     display: block;
     position: absolute;
-    background: $grey;
+    background: lightgrey!important;
     height: 2px;
     top: 8px;
 }
