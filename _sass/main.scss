@@ -63,8 +63,8 @@ $panel-block-hover-background-color: $blue;
 
 // pink underline
 
-span.curly:after {
-    background-image: url('golf.svg');
+.curly::after {
+    background: url(golf.svg) bottom repeat-x;
     content: '';
 }
 

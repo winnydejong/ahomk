@@ -6945,8 +6945,8 @@ label.panel-block {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem; }
 
-span.curly:after {
-  background-image: url("golf.svg");
+.curly::after {
+  background: url(golf.svg) bottom repeat-x;
   content: ''; }
 
 ol.menu-list {
