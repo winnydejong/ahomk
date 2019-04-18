@@ -31,7 +31,7 @@ $body-line-height: 28px;
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $red;
-
+$panel-block-hover-background-color: $blue;
 
 // 4. Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
@@ -91,6 +91,7 @@ div.is-divider, hr.verdeler {
     font-weight: 300;
     font-size: 2.5rem;
     line-height: 4.9rem;
+    text-align: center;
 }
 
 span.hfdnr {
