@@ -6998,8 +6998,7 @@ label.panel-block {
 .content h5,
 .content h6 {
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  color: #4A4A4A;
-  display: inline-block; }
+  color: #4A4A4A; }
 
 .content h2,
 .content h2:not(:first-child),
@@ -7016,7 +7015,10 @@ span.hfdnr {
 .content h3 {
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 3.16rem; }
+  line-height: f3 0.16rem; }
+
+.content .article h4 {
+  display: inline-block; }
 
 .notitie {
   font-family: "Playfair Display", "serif";
