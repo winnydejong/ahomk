@@ -61,7 +61,7 @@ $panel-block-hover-background-color: $blue;
 // terug + curly
 .terug,
 .terug a {
-    color: $black;
+    color: $notblack;
     display: inline-block;
     align-self: right;
 }
@@ -118,7 +118,7 @@ $panel-block-hover-background-color: $blue;
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-family: $family-primary;
-    color: $black;
+    color: $notblack;
 }
 
 .content h2,
