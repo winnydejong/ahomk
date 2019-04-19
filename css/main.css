@@ -6946,7 +6946,7 @@ label.panel-block {
 
 .terug,
 .terug a {
-  color: #000000;
+  color: #4A4A4A;
   display: inline-block;
   align-self: right; }
 
@@ -6998,7 +6998,8 @@ label.panel-block {
 .content h5,
 .content h6 {
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  color: #000000; }
+  color: #4A4A4A;
+  display: inline-block; }
 
 .content h2,
 .content h2:not(:first-child),
@@ -7054,9 +7055,9 @@ hr:after {
 .box {
   background-color: white;
   border-radius: 0px;
-  border: 1px #4a4a4a solid;
-  box-shadow: -3px 3px #4a4a4a, -2px 2px #4a4a4a, -1px 1px #4a4a4a;
-  color: #4a4a4a;
+  border: 1px #4A4A4A solid;
+  box-shadow: -3px 3px #4A4A4A, -2px 2px #4A4A4A, -1px 1px #4A4A4A;
+  color: #4A4A4A;
   display: block;
   padding: 1.25rem; }
 
@@ -7064,24 +7065,24 @@ hr:after {
 .content figure {
   margin: 0em !important; }
 
-code {
-  color: #FF00FF !important;
-  background-color: whitesmoke !important; }
+mark {
+  padding: 2px;
+  color: #3a3a3a; }
 
-div.tldr {
-  border: 1px solid black;
-  padding: 20px 10px;
-  margin: 15px; }
+mark .yellow {
+  background-color: #ffff00; }
 
-.tldr::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 20px;
-  border-top: 20px solid black;
-  border-top-color: inherit;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent; }
+mark .blue {
+  background-color: #00ffff; }
+
+span.tldr {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.8rem;
+  float: right;
+  display: inline;
+  color: #ff00ff; }
 
 footer {
   padding: 10rem 1.5rem 1.5rem; }
