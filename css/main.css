@@ -7082,7 +7082,8 @@ span.tldr {
   font-size: 1.8rem;
   float: right;
   display: inline;
-  color: #ff00ff; }
+  color: #ff00ff;
+  margin-top: -7px; }
 
 footer {
   padding: 10rem 1.5rem 1.5rem; }
