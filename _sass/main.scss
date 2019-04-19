@@ -197,10 +197,18 @@ hr:after {
     margin: 0em!important;
 }
 
-// code
-code {
-    color: $pink!important;
-    background-color: whitesmoke!important;
+// mark
+mark {
+    padding: 2px;
+    color: #3a3a3a;
+}
+
+mark .yellow {
+    background-color: #ffff00;
+}
+
+mark .blue {
+    background-color: #00ffff;
 }
 
 //tldr
