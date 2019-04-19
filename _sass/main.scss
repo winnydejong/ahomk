@@ -20,6 +20,7 @@ $yellow: #FFFF00;
 $blue: #00FFFF;
 $black: #000000;
 $grey: #1D1D1B;
+$notblack: #4A4A4AA;
 
 // Update the sans-serif font family
 $family-sans-serif: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -180,16 +181,12 @@ hr:after {
 }
 
 // box
-.tldruitleg {
-    line-height: ;
-}
-
 .box {
     background-color: $white;
     border-radius: 0px;
-    border: 1px $black solid;
-    box-shadow: -3px 3px $black, -2px 2px $black, -1px 1px $black;
-    color: $black;
+    border: 1px $notblack solid;
+    box-shadow: -3px 3px $notblack, -2px 2px $notblack, -1px 1px $notblack;
+    color: $notblack;
     display: block;
     padding: 1.25rem;
 }
@@ -223,9 +220,6 @@ div.tldr {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
 }
-
-
-
 
 
 // footer

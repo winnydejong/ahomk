@@ -6962,7 +6962,8 @@ label.panel-block {
 .subtitle {
   font-weight: 300 !important;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-bottom: 2rem; }
 
 .content ol:not([type]) {
   list-style-type: none !important; }
@@ -7053,29 +7054,15 @@ hr:after {
 .box {
   background-color: white;
   border-radius: 0px;
-  border: 1px #000000 solid;
-  box-shadow: -3px 3px #000000, -2px 2px #000000, -1px 1px #000000;
-  color: #000000;
+  border: 1px #4a4a4a solid;
+  box-shadow: -3px 3px #4a4a4a, -2px 2px #4a4a4a, -1px 1px #4a4a4a;
+  color: #4a4a4a;
   display: block;
   padding: 1.25rem; }
 
-.boxblue {
-  background-color: white;
-  border-radius: 0px;
-  border: 1px #00FFFF solid;
-  box-shadow: -3px 3px #00FFFF, -2px 2px #00FFFF, -1px 1px #00FFFF;
-  color: #000000;
-  display: block;
-  padding: 1.25rem; }
-
-.boxblueblack {
-  background-color: white;
-  border-radius: 0px;
-  border: 1px #000000 solid;
-  box-shadow: -3px 3px #00FFFF, -2px 2px #00FFFF, -1px 1px #00FFFF;
-  color: #000000;
-  display: block;
-  padding: 1.25rem; }
+.content figure .img,
+.content figure {
+  margin: 0em !important; }
 
 code {
   color: #FF00FF !important;
