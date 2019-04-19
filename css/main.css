@@ -7007,7 +7007,8 @@ content h2:not(:first-child) {
   font-size: 2.5rem;
   line-height: 4.9rem;
   margin-top: 1.1428em;
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 span.hfdnr {
   color: #FF00FF; }
