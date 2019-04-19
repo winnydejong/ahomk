@@ -7025,10 +7025,10 @@ span.hfdnr {
   color: #1D1D1B; }
 
 hr {
-  background: url("is.svg") no-repeat center center;
-  background-size: 4%;
+  background: url("is.svg") no-repeat center 1px;
+  background-size: 1.4rem;
   display: block;
-  height: 28px;
+  height: 40px;
   border: 0;
   position: relative;
   margin: 3rem 0; }
