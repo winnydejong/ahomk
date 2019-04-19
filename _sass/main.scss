@@ -58,11 +58,21 @@ $panel-block-hover-background-color: $blue;
     text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
 }
 
+=desktop
+    .ongeveer {
+        text-shadow: none;
+        background-image: url(header.svg) center center;
+    }
+
+    .curly {
+        background-image: none;
+    }
+
 // terug + curly
 .terug,
 .terug a {
     color: $notblack;
-    display: inline-block;
+    display: block;
     align-self: right;
 }
 
