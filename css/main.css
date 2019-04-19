@@ -7018,6 +7018,7 @@ span.hfdnr {
   font-size: 1.5rem;
   line-height: f3 0.16rem; }
 
+.content .article .message .box h4,
 .content .article h4 {
   display: inline-block; }
 
@@ -7069,8 +7070,7 @@ hr:after {
   margin: 0em !important; }
 
 mark {
-  padding: 2px;
-  color: #3a3a3a; }
+  padding: 2px; }
 
 mark .yellow {
   background-color: #ffff00; }
