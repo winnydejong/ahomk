@@ -6962,8 +6962,7 @@ label.panel-block {
 .subtitle {
   font-weight: 300 !important;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  margin-bottom: 2rem; }
+  font-size: 1.5rem; }
 
 .content ol:not([type]) {
   list-style-type: none !important; }
