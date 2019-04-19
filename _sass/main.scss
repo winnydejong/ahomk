@@ -194,6 +194,12 @@ hr:after {
     padding: 1.25rem;
 }
 
+// afbeeldingen: kader weg geen marge
+.content figure .img,
+.content figure {
+    margin: 0em!important;
+}
+
 // code
 code {
     color: $pink!important;
