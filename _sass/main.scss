@@ -119,6 +119,7 @@ $panel-block-hover-background-color: $blue;
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-family: $family-primary;
     color: $notblack;
+    display: inline-block;
 }
 
 .content h2,
@@ -140,6 +141,7 @@ span.hfdnr {
     font-size: 1.5rem;
     line-height: 3.16rem;
 }
+
 
 // Kantlijn notities
 .notitie {
@@ -229,6 +231,15 @@ div.tldr {
     border-right: 20px solid transparent;
 }
 
+span.tldr {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.8rem;
+    float: right;
+    display: inline;
+    color: #ff00ff;
+}
 
 // footer
 footer {
