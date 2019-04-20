@@ -59,16 +59,15 @@ $panel-block-hover-background-color: $blue;
 }
 
 // alternatieve header voor desktop+
-+desktop
-    .ongeveer {
++desktop .ongeveer {
         text-shadow: none;
-    }
+        }
 
-    h1.title div.curly {
++desktop h1.title div.curly {
         background-image: none;
     }
 
-    .title {
++desktop .title {
         background-image: url(header.svg);
         background-repeat: no-repeat;
         background-position-x: 50%;
