@@ -41,12 +41,19 @@ $panel-block-hover-background-color: $blue;
 
 // header
 .title {
-    padding: 54px 0;
     color: $black;
     font-size: 3rem;
     font-weight: 400;
     line-height: 1.125;
     font-family: 'Playfair Display', serif;
+}
+
+.titletablet{
+    padding: 4rem 0 2rem 0;
+}
+
+.titledesktop {
+    padding: 54px 0;
 }
 .ongeveer {
     font-weight: 900;

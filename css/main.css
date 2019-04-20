@@ -6928,12 +6928,17 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .title {
-  padding: 54px 0;
   color: #000000;
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.125;
   font-family: 'Playfair Display', serif; }
+
+.titletablet {
+  padding: 4rem 0 2rem 0; }
+
+.titledesktop {
+  padding: 54px 0; }
 
 .ongeveer {
   font-weight: 900;
