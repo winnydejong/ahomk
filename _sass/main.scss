@@ -59,7 +59,7 @@ $panel-block-hover-background-color: $blue;
 }
 
 // alternatieve header voor desktop+
-+desktop
++desktop {
     .ongeveer {
         text-shadow: none;
         background-image: url(header.svg) center center;
@@ -77,6 +77,7 @@ $panel-block-hover-background-color: $blue;
         background-size: 70%;
         padding: 54px 0px;
     }
+}
 
 // terug + curly
 .terug,
