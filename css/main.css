@@ -6944,19 +6944,20 @@ label.panel-block {
   display: inline;
   text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
 
-@desktop {
-  .ongeveer {
-    text-shadow: none;
-    background-image: url(header.svg) center center; }
-  h1.title div.curly {
-    background-image: none; }
-  .title {
-    background-image: url(header.svg);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 27px;
-    background-size: 70%;
-    padding: 54px 0px; } }
++ desktop .ongeveer {
+  text-shadow: none;
+  background-image: url(header.svg) center center; }
+
++ desktop h1.title div.curly {
+  background-image: none; }
+
++ desktop .title {
+  background-image: url(header.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 27px;
+  background-size: 70%;
+  padding: 54px 0px; }
 
 .terug,
 .terug a {
