@@ -7079,7 +7079,8 @@ hr:after {
   margin: 0em !important; }
 
 .table__wrapper {
-  overflow-x: auto; }
+  overflow-x: auto;
+  width: 100%; }
 
 mark {
   padding: 2px; }
