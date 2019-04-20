@@ -59,8 +59,7 @@ $panel-block-hover-background-color: $blue;
 }
 
 // alternatieve header voor desktop+
-@media screen and (min-width: $desktop)
-    @content
++desktop
     .ongeveer {
         text-shadow: none;
         background-image: url(header.svg) center center;
