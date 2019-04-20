@@ -6944,7 +6944,7 @@ label.panel-block {
   display: inline;
   text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
 
-+ desktop .title {
+.headerimg {
   background-image: url(header.svg);
   background-repeat: no-repeat;
   background-position-x: 50%;
