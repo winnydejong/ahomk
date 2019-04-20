@@ -65,6 +65,9 @@ $panel-block-hover-background-color: $blue;
         padding: 54px 0px;
     }
 
+.titleshadow {
+        text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
+}
 // terug + curly
 .terug,
 .terug a {
