@@ -61,23 +61,23 @@ $panel-block-hover-background-color: $blue;
 // alternatieve header voor desktop+
 @media screen and (min-width: $desktop)
     @content
-        .ongeveer {
-            text-shadow: none;
-            background-image: url(header.svg) center center;
-        }
+    .ongeveer {
+        text-shadow: none;
+        background-image: url(header.svg) center center;
+    }
 
-        h1.title div.curly {
-            background-image: none;
-        }
+    h1.title div.curly {
+        background-image: none;
+    }
 
-        .title {
-            background-image: url(header.svg);
-            background-repeat: no-repeat;
-            background-position-x: 50%;
-            background-position-y: 27px;
-            background-size: 70%;
-            padding: 54px 0px;
-        }
+    .title {
+        background-image: url(header.svg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 27px;
+        background-size: 70%;
+        padding: 54px 0px;
+    }
 
 // terug + curly
 .terug,
