@@ -6928,10 +6928,7 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .title {
-  padding-top: 4rem;
-  padding-right: 2rem;
-  padding-bottom: 0rem;
-  padding-left: 2rem;
+  padding: 54px 0;
   color: #000000;
   font-size: 3rem;
   font-weight: 400;
@@ -6948,7 +6945,7 @@ label.panel-block {
   background-image: url(header.svg);
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: 27px;
+  background-position-y: 60%;
   background-size: 70%;
   padding: 54px 0px; }
 
