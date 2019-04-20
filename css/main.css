@@ -6945,8 +6945,7 @@ label.panel-block {
   text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
 
 + desktop .ongeveer {
-  text-shadow: none;
-  background-image: url(header.svg) center center; }
+  text-shadow: none; }
 
 + desktop h1.title div.curly {
   background-image: none; }
