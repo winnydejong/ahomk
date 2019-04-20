@@ -217,6 +217,11 @@ hr:after {
     margin: 0em!important;
 }
 
+// maak tabel responsive
+.table__wrapper {
+  overflow-x: auto;
+}
+
 // mark
 mark {
     padding: 2px;

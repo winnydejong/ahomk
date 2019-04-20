@@ -7078,6 +7078,9 @@ hr:after {
 .content figure {
   margin: 0em !important; }
 
+.table__wrapper {
+  overflow-x: auto; }
+
 mark {
   padding: 2px; }
 
