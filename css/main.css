@@ -7089,14 +7089,21 @@ hr:after {
   overflow-x: auto;
   width: 100%; }
 
-mark {
-  padding: 2px; }
+.mark {
+  --highlighter-pen: url('/highlighter.png');
+  --highlighter-path: path("M46.83,230.9c24.41,-51.06 455.28,-6.72 465.09,-16.82");
+  --highlighter-size: 35;
+  --highlighter-opacity: 1;
+  --highlighter-smooth: 1;
+  --highlighter-progress: 0;
+  transition: --highlighter-progress 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  background: paint(highlighter); }
 
 mark .yellow {
-  background-color: #ffff00; }
+  --highlighter-color: $yellow; }
 
 mark .blue {
-  background-color: #00ffff; }
+  --highlighter-color: $blue; }
 
 span.tldr {
   font-family: 'Playfair Display', serif;
