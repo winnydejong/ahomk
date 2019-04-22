@@ -6968,8 +6968,7 @@ label.panel-block {
   background-size: auto 5px;
   background-repeat: repeat-x;
   padding-bottom: 3px;
-  text-decoration: none;
-  text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
+  text-decoration: none; }
 
 .subtitle {
   font-weight: 300 !important;
