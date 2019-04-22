@@ -6935,10 +6935,10 @@ label.panel-block {
   font-family: 'Playfair Display', serif; }
 
 .titletablet {
-  padding: 4rem 0 2rem 0; }
+  padding: 34px 0px; }
 
 .titledesktop {
-  padding: 54px 0; }
+  padding: 54px 0px; }
 
 .ongeveer {
   font-weight: 900;
@@ -6951,8 +6951,16 @@ label.panel-block {
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 60%;
-  background-size: 70%;
   padding: 54px 0px; }
+
+.headerDesktop {
+  background-size: 70%; }
+
+.headerimgWidescreen {
+  background-size: 90%; }
+
+.headerimgFullhd {
+  background-size: 110%; }
 
 .titleshadow {
   text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
