@@ -21,6 +21,7 @@ $blue: #00FFFF;
 $black: #000000;
 $grey: #1D1D1B;
 $notblack: #4A4A4A;
+$linkblue: #00B8FF;
 
 // Update the sans-serif font family
 $family-sans-serif: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -170,7 +171,7 @@ span.hfdnr {
 
 // Kleur Links
 a {
-    color: #00B8FF;
+    color: $linkblue;
 }
 
 // Kantlijn notities
