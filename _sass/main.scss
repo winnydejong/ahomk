@@ -222,13 +222,10 @@ hr:after {
 
 @media
 only screen and (max-width: 1023px) {
-
-    /* Force table to not be like tables anymore */
     table, thead, tbody, th, td, tr {
         display: block;
     }
 
-    /* Hide table headers (but not display: none;, for accessibility) */
     thead tr {
         position: absolute;
         top: -9999px;
@@ -238,29 +235,26 @@ only screen and (max-width: 1023px) {
     tr { border: 1px solid #ccc; }
 
     td {
-        /* Behave  like a "row" */
         border: none;
         border-bottom: 1px solid #eee;
         position: relative;
-        padding-left: 50%;
+        padding-left: 200px;
+        margin-left: 150px
     }
 
     td:before {
-        /* Now like a table header */
         position: absolute;
-        /* Top/left values mimic padding */
         top: 6px;
         left: 6px;
         width: 45%;
         padding-right: 10px;
         white-space: nowrap;
+        margin-left: -150px;
     }
-
-    /* Label the data*/
-    td:nth-of-type(1):before { content: "Wetenschappelijke notatie"; }
-    td:nth-of-type(2):before { content: "Lange schaal (NL)"; }
-    td:nth-of-type(3):before { content: "Korte schaal (EN)"; }
-    td:nth-of-type(4):before { content: "Uitgeschreven getal"; }
+    td:nth-of-type(1):before { content: "Wetenschappelijk"; }
+    td:nth-of-type(2):before { content: "Lange schaal"; }
+    td:nth-of-type(3):before { content: "Korte schaal"; }
+    td:nth-of-type(4):before { content: "Uitgeschreven"; }
 }
 
 // mark
