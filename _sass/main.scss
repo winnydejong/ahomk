@@ -226,17 +226,9 @@ hr:after {
 }
 
 // mark
-.mark {
-  --highlighter-pen: url('/highlighter.png');
-  --highlighter-path: path("M46.83,230.9c24.41,-51.06 455.28,-6.72 465.09,-16.82");
-  --highlighter-size: 35;
-  --highlighter-opacity: 1;
-  --highlighter-smooth: 1;
-  --highlighter-progress: 0;
-  transition: --highlighter-progress 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  background: paint(highlighter);
+mark {
+    padding: 2px;
 }
-
 
 mark .yellow {
     --highlighter-color: $yellow;
