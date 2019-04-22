@@ -6943,8 +6943,7 @@ label.panel-block {
 .ongeveer {
   font-weight: 900;
   font-style: italic;
-  display: inline;
-  text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
+  display: inline; }
 
 .headerimg {
   background-image: url(header.svg);
@@ -6969,7 +6968,8 @@ label.panel-block {
   background-size: auto 5px;
   background-repeat: repeat-x;
   padding-bottom: 3px;
-  text-decoration: none; }
+  text-decoration: none;
+  text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white; }
 
 .subtitle {
   font-weight: 300 !important;

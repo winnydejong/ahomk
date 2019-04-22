@@ -60,7 +60,6 @@ $panel-block-hover-background-color: $blue;
     font-weight: 900;
     font-style: italic;
     display: inline;
-    text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
 }
 
 // alternatieve header voor desktop, widescreen en fullhd
@@ -91,6 +90,7 @@ $panel-block-hover-background-color: $blue;
     background-repeat:repeat-x;
     padding-bottom: 3px;
     text-decoration: none;
+    text-shadow: -2.5px 0 white, 0 2.5px white, 2.5px 0 white, 0 -2.5px white;
 }
 
 .subtitle {
