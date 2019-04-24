@@ -109,8 +109,8 @@ span.handrechts {
     content: url("hand.png");
     display: inline-block;
     height: 20px;
-    transform: rotate(-8deg);
-    margin: 5px -15px -10px 0px;
+    transform: scaleX(-1) rotate(-8deg);
+    margin: 5px 0px -10px -15px;
     padding-bottom: 4px;
     opacity: 0.87;
 }
