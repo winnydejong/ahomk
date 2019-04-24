@@ -7159,10 +7159,10 @@ marker {
   padding: 2px; }
 
 marker .yellow {
-  --highlighter-color: $yellow; }
+  background-color: #FFFF00; }
 
 marker .blue {
-  --highlighter-color: $blue; }
+  background-color: #00FFFF; }
 
 span.tldr {
   font-family: 'Playfair Display', serif;
