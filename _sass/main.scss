@@ -199,8 +199,17 @@ a {
 .kantlijn {
     font-family: $family-serif;
     font-size: 0.9375rem;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     color: $grey;
+    margin-top: -8%;
+}
+
+.kantlijnlinks {
+    padding-right: 14%;
+}
+
+.kantlijnrechts {
+    padding-left: 14%
 }
 
 // divider

@@ -7063,8 +7063,15 @@ a {
 .kantlijn {
   font-family: "Playfair Display", "serif";
   font-size: 0.9375rem;
-  line-height: 1.5rem;
-  color: #1D1D1B; }
+  line-height: 1.3rem;
+  color: #1D1D1B;
+  margin-top: -8%; }
+
+.kantlijnlinks {
+  padding-right: 14%; }
+
+.kantlijnrechts {
+  padding-left: 14%; }
 
 hr {
   background: url("is.svg") no-repeat center 1px;
