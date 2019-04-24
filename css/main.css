@@ -7117,7 +7117,7 @@ mark .yellow {
   --highlighter-color: $yellow; }
 
 mark .blue {
-  --highlighter-color: $blue; }
+  --highlighter-color: $blue!important; }
 
 span.tldr {
   font-family: 'Playfair Display', serif;

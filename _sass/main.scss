@@ -267,7 +267,7 @@ mark .yellow {
 }
 
 mark .blue {
-    --highlighter-color: $blue;
+    --highlighter-color: $blue!important;
 }
 
 //tldr
