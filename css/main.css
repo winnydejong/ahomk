@@ -7170,6 +7170,10 @@ span.tldr {
   color: #ff00ff;
   margin-top: -7px; }
 
+super {
+  vertical-align: super;
+  font-size: .7rem; }
+
 footer {
   padding: 10rem 1.5rem 1.5rem; }
 

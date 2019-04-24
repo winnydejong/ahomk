@@ -337,6 +337,12 @@ span.tldr {
     margin-top: -7px;
 }
 
+// superscript
+super {
+    vertical-align: super;
+    font-size: .7rem;
+}
+
 // footer
 footer {
     padding: 10rem 1.5rem 1.5rem;
