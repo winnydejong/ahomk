@@ -232,11 +232,13 @@ only screen and (max-width: 1023px) {
         left: -9999px;
     }
 
-    tr { border: 1px solid #ccc; }
+    tr {
+        border: 1px solid #ccc;
+    }
 
     td {
         border: none;
-        border-bottom: 1px solid #eee;
+        border: 1px solid #eee;
         position: relative;
         padding-left: 200px;
         margin-left: 150px
@@ -258,16 +260,16 @@ only screen and (max-width: 1023px) {
 }
 
 // mark
-mark {
+marker {
     padding: 2px;
 }
 
-mark .yellow {
+marker .yellow {
     --highlighter-color: $yellow;
 }
 
-mark .blue {
-    --highlighter-color: $blue!important;
+marker .blue {
+    --highlighter-color: $blue;
 }
 
 //tldr
