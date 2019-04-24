@@ -6957,9 +6957,10 @@ label.panel-block {
 
 .terug,
 .terug a {
-  color: #4A4A4A;
+  color: #878787;
   display: block;
-  align-self: right; }
+  align-self: right;
+  margin: 60px 0 0; }
 
 span.terughand {
   content: url("hand.png");

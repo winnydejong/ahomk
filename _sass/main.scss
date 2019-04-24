@@ -20,6 +20,7 @@ $yellow: #FFFF00;
 $blue: #00FFFF;
 $black: #000000;
 $grey: #1D1D1B;
+$lightgrey: #878787;
 $notblack: #4A4A4A;
 $linkblue: #00B8FF;
 
@@ -77,9 +78,10 @@ $panel-block-hover-background-color: $blue;
 // terug + curly
 .terug,
 .terug a {
-    color: $notblack;
+    color: $lightgrey;
     display: block;
     align-self: right;
+    margin: 60px 0 0;
 }
 
 span.terughand {
