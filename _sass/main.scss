@@ -212,6 +212,11 @@ a {
     padding-left: 14%
 }
 
+.kantlijn a {
+    color: $grey;
+    text-decoration: underline;
+}
+
 // divider
 hr {
     background: url('is.svg') no-repeat center 1px;

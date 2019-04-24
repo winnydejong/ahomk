@@ -7073,6 +7073,10 @@ a {
 .kantlijnrechts {
   padding-left: 14%; }
 
+.kantlijn a {
+  color: #1D1D1B;
+  text-decoration: underline; }
+
 hr {
   background: url("is.svg") no-repeat center 1px;
   background-size: 1.4rem;
