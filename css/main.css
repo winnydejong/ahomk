@@ -6976,11 +6976,9 @@ span.handlinks {
   content: url("hand.png");
   display: inline-block;
   height: 20px;
-  -webkit-transform: scaleX(-1) rotate(270deg);
-  transform: scaleX(-1) rotate(270deg);
-  margin-left: -5px;
-  padding-bottom: 8px;
-  opacity: 0.5; }
+  transform: rotate(-8deg);
+  margin: 5px -15px -10px 0px;
+  padding-bottom: 4px; }
 
 .curly {
   border-bottom-color: transparent;
