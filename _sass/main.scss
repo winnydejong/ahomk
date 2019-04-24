@@ -102,6 +102,17 @@ span.handlinks {
     transform: rotate(-8deg);
     margin: 5px -15px -10px 0px;
     padding-bottom: 4px;
+    opacity: 0.8;
+}
+
+span.handrechts {
+    content: url("hand.png");
+    display: inline-block;
+    height: 20px;
+    transform: rotate(-8deg);
+    margin: 5px -15px -10px 0px;
+    padding-bottom: 4px;
+    opacity: 0.8;
 }
 
 .curly {
