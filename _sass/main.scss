@@ -232,10 +232,6 @@ only screen and (max-width: 1023px) {
         left: -9999px;
     }
 
-    tr {
-        border: 1px solid #ccc;
-    }
-
     td {
         border: none;
         border: 1px solid #eee;
@@ -253,10 +249,26 @@ only screen and (max-width: 1023px) {
         white-space: nowrap;
         margin-left: -150px;
     }
-    td:nth-of-type(1):before { content: "Wetenschappelijk"; }
-    td:nth-of-type(2):before { content: "Lange schaal"; }
-    td:nth-of-type(3):before { content: "Korte schaal"; }
-    td:nth-of-type(4):before { content: "Uitgeschreven"; }
+    td:nth-of-type(1):before {
+        content: "Wetenschappelijk";
+        font-weight: 700;
+        text-align: right;
+    }
+    td:nth-of-type(2):before {
+        content: "Lange schaal";
+        font-weight: 700;
+        text-align: right;
+    }
+    td:nth-of-type(3):before {
+        content: "Korte schaal";
+        font-weight: 700;
+        text-align: right;
+    }
+    td:nth-of-type(4):before {
+        content: "Uitgeschreven";
+        font-weight: 700;
+        text-align: right;
+    }
 }
 
 // mark

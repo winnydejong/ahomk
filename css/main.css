@@ -7085,8 +7085,6 @@ hr:after {
     position: absolute;
     top: -9999px;
     left: -9999px; }
-  tr {
-    border: 1px solid #ccc; }
   td {
     border: none;
     border: 1px solid #eee;
@@ -7102,13 +7100,21 @@ hr:after {
     white-space: nowrap;
     margin-left: -150px; }
   td:nth-of-type(1):before {
-    content: "Wetenschappelijk"; }
+    content: "Wetenschappelijk";
+    font-weight: 700;
+    text-align: right; }
   td:nth-of-type(2):before {
-    content: "Lange schaal"; }
+    content: "Lange schaal";
+    font-weight: 700;
+    text-align: right; }
   td:nth-of-type(3):before {
-    content: "Korte schaal"; }
+    content: "Korte schaal";
+    font-weight: 700;
+    text-align: right; }
   td:nth-of-type(4):before {
-    content: "Uitgeschreven"; } }
+    content: "Uitgeschreven";
+    font-weight: 700;
+    text-align: right; } }
 
 marker {
   padding: 2px; }
