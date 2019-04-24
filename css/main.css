@@ -7075,7 +7075,7 @@ a {
 
 .kantlijn a {
   color: #1D1D1B;
-  text-decoration: underline; }
+  text-decoration: underline #1D1D1B; }
 
 hr {
   background: url("is.svg") no-repeat center 1px;
