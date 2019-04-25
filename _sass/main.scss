@@ -116,13 +116,14 @@ span.handrechts {
 }
 
 span.handrechtsspecial {
-    content: url("hand.png");
+    content: url(hand.png);
     display: inline-block;
     height: 20px;
-    transform: scaleX(-1) rotate(18deg);
-    margin: 5px 0px -10px -15px;
-    padding-bottom: 4px;
+    transform: scaleX(-1) rotate(48deg);
     opacity: 0.87;
+    margin-top: -35px;
+    margin-left: 5px;
+    padding-bottom: 4px;
 }
 
 .curly {
