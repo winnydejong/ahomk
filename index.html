@@ -98,8 +98,12 @@
                             <li><a href="#hoofdstuk9"><b>Vrienden</b> <small class="has-text-right">recensies *****</small></a></li>
                         </ol>
                     </aside>
-                    <a class="button is-primary">Toon my alleen de samenvatting</a>
-
+                    <a onclick="displayDate()" class="button is-primary">Toon my alleen de samenvatting</a>
+                    <script>
+                      function displayDate() {
+                        document.getElementById("demo").innerHTML = Date();
+                      }
+                    </script>
                     <hr>
                     <a name="hoofdstuk1"></a>
                     <h2 id="verandering"><span class="hfdnr">01</span> Verandering</h2>
