@@ -7073,6 +7073,9 @@ span.hfdnr {
   font-size: 1.5rem;
   line-height: f3 0.16rem; }
 
+.click-to-toggle {
+  cursor: pointer; }
+
 a {
   color: #00B8FF; }
 
