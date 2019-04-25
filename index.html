@@ -83,10 +83,10 @@
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
                     <p>PS. Heb je haast en wil je sneller cijferwijzer worden? Check dan deze samenvatting - online of als PDF:</p>
-                    <p><a class="button is-outlined is-large" onclick="tldrToggle()"><span class="tldr">tl;dr online</span></a> <a href="/tldr.pdf" target="_blank" class="button is-outlined is-large"><span class="tldr">tl;dr pdf</span></a></p>
+                    <p><a class="button" onclick="tldrToggle()"><span class="tldrbutton">tl;dr online</span></a> <a href="/tldr.pdf" target="_blank" class="button is-outlined"><span class="tldr">tl;dr pdf</span></a></p>
                     <script>
                       function tldrToggle() {
-                        var x = document.querySelectorAll('*:not(.toggle)');
+                        var x = document.getElementById("toggle");
                         if (x.style.display === "none") {
                           x.style.display = "block";
                         } else {
@@ -142,7 +142,7 @@
                       <img src="./img/1.03.jpg">
                     </figure>
                     <p>Met 150 als noemer, wordt het al lastiger om de noemer om te zetten naar 100. Je kunt daarom een ezelsbruggetje gebruiken.</p>
-                    <article class="message box toggle">
+                    <article class="message box tldrToggle">
                         <span class="tldr">tl;dr</span>
                         <h4>Deel van het geheel</h4>
                         <p>Hoeveel procent is een deel van het geheel?</p>
