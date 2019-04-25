@@ -82,8 +82,18 @@
                   <div class="content">
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
-                    <p>PS. Mocht je geen tijd hebben voor grondige uitleg, maar wil je gewoon antwoorden? Check dan onze samenvatting - online of als PDF.</p>
-                    <p><<a class="button is-large"><span class="tldr">tl;dr online</span></a> <a class="button is-large"><span class="tldr">tl;dr pdf</span></a></p>
+                    <p>PS. Heb je haast en wil je sneller cijferwijzer worden? Check dan deze samenvatting - online of als PDF:</p>
+                    <p><a class="button is-outlined is-large" onclick="tldrToggle()"><span class="tldr">tl;dr online</span></a> <a href="/tldr.pdf" target="_blank" class="button is-outlined is-large"><span class="tldr">tl;dr pdf</span></a></p>
+                    <script>
+                      function tldrToggle() {
+                        var x = document.querySelectorAll('*:not(.toggle)');
+                        if (x.style.display === "none") {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
                     <a name="inhoudsopgave"></a>
                     <hr>
                     <aside class="menu">
