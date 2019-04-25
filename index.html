@@ -83,10 +83,10 @@
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
                     <p>PS. Heb je haast en wil je sneller cijferwijzer worden? Check dan deze samenvatting - online of als PDF:</p>
-                    <p><a class="button" onclick="tldrToggle()"><span class="tldrbutton">tl;dr online</span></a> <a href="/tldr.pdf" target="_blank" class="button is-outlined"><span class="tldr">tl;dr pdf</span></a></p>
+                    <p><a class="button is-outlined" onclick="tldrToggle()"><span class="tldr">tl;dr online</span></a>
                     <script>
                       function tldrToggle() {
-                        var x = document.getElementById("toggle");
+                        var x = document.getElementById("*:not(toggle)");
                         if (x.style.display === "none") {
                           x.style.display = "block";
                         } else {
