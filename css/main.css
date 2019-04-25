@@ -7077,6 +7077,10 @@ span.hfdnr {
   background-color: #FF00FF;
   color: white; }
 
+.button .is-outline {
+  background-color: none;
+  color: #4A4A4A; }
+
 a {
   color: #00B8FF; }
 

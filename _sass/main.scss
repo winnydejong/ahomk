@@ -222,6 +222,11 @@ span.hfdnr {
     color: $white;
 }
 
+.button .is-outline {
+    background-color: none;
+    color: $notblack;
+}
+
 // Kleur Links
 a {
     color: $linkblue;
