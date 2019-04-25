@@ -83,10 +83,18 @@
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
                     <p>PS. Heb je haast en wil je sneller cijferwijzer worden? Check dan deze samenvatting - online of als PDF:</p>
-                    <p></p>
+                    <p class="click-to-toggle">Klik hier om te wisselen van volledige tekst naar samenvatting en andersom.</p>
                     <script>
+                      function tldrToggle() {
+                        var x = document.getElementByClass("toggle");
+                        if (x.style.display === "none") {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
                     </script>
-                    <a name="inhoudsopgave"></a>
+                    <a name="inhoudsopgave" class="toggle"></a>
                     <hr>
                     <aside class="menu myDIV">
                         <p class="menu-label">
