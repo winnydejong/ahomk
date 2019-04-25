@@ -7014,7 +7014,7 @@ span.handrechtsspecial {
   margin-left: 5px;
   padding-bottom: 4px; }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1087px) {
   .column.is-6, .column.is-6-tablet {
     flex: none;
     width: 50%;
