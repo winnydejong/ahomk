@@ -105,6 +105,18 @@
                       }
                     </script>
                     <hr>
+                    <a onclick="tldr()" class="button is-primary">Toon alleen de samenvatting</a>
+                    <script>
+                      function tldr() {
+                        var x = document.getElementById("weg");
+                        if (x.style.display === "none") {
+                          x.style.display = "block";
+                        } else {
+                          x.style.display = "none";
+                        }
+                      }
+                    </script>
+                    <hr>
                     <a name="hoofdstuk1"></a>
                     <h2 id="verandering"><span class="hfdnr">01</span> Verandering</h2>
                     <h3>Breuken en percentages</h3>
@@ -115,19 +127,19 @@
               <div class="columns">
                 <div class="column is-2 is-offset-1 has-text-right">
                   <div class="content">
-                    <br><span class="handlinks"></span>
+                    <br><span class="handlinks weg"></span>
                     <p class="kantlijn kantlijnlinks">Dit is echt puur hypothetisch: onze pizza&rsquo;s eten we zelf wel op.</p>
                   </div>
                 </div>
                 <div class="column is-6">
                   <div class="content">
-                    <p>Elke verdeling is in feite een breuk, en elke breuk is een percentage. Stel dat we onze pizza met jou delen. Als we jou twee van de acht pizzapunten geven, krijg je 2/8e deel. </p>
+                    <p class="weg">Elke verdeling is in feite een breuk, en elke breuk is een percentage. Stel dat we onze pizza met jou delen. Als we jou twee van de acht pizzapunten geven, krijg je 2/8e deel. </p>
                     <p>Omdat je wel aardig bent, maar niet zó aardig; staat de <marker class="yellow">teller op twee</marker>. Je krijgt maar twee punten van de acht pizzapunten in totaal. Het totaal aantal delen, acht in dit geval, noemen we de noemer. </p>
-                    <figure class="image is-9by5">
+                    <figure class="image is-9by5 weg">
                       <img src="./img/1.01.jpg">
                     </figure>
-                    <p>Een percentage is een breuk waarvan de noemer 100 is. Procent betekent namelijk &#39;per honderd&#39;. Om uit te rekenen hoeveel procent van onze pizza jij krijgt, moet je 2/8 omzetten naar ?/100. Om van acht naar honderd te gaan, moet je <marker class="yellow">vermenigvuldigen met 12,5</marker>.</p>
-                    <figure class="image is-9by5">
+                    <p class="weg">Een percentage is een breuk waarvan de noemer 100 is. Procent betekent namelijk &#39;per honderd&#39;. Om uit te rekenen hoeveel procent van onze pizza jij krijgt, moet je 2/8 omzetten naar ?/100. Om van acht naar honderd te gaan, moet je <marker class="yellow">vermenigvuldigen met 12,5</marker>.</p>
+                    <figure class="image is-9by5 weg">
                       <img src="./img/1.02.jpg">
                     </figure>
                     <p>Dit doe je ook bij de teller. Twee van de acht punten is net zo veel als 25 van de honderd punten. En 25 per honderd is gelijk aan 25 procent. </p>
