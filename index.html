@@ -98,16 +98,16 @@
                             <li><a href="#hoofdstuk9"><b>Vrienden</b> <small class="has-text-right">recensies *****</small></a></li>
                         </ol>
                     </aside>
-                    <a onclick="tldr()" class="button is-primary">Toon alleen de samenvatting</a>
+                    <a onclick="myFunction()" class="button is-primary">Toon alleen de samenvatting</a><a href="/tldr.pdf" class="button is-normal">Download PDF samenvatting</a>
                     <script>
-                      function tldr() {
-                        var x = document.getElementsByClassName('weg');
-                        if (x.style.display === "none") {
-                          x.style.display = "block";
-                        } else {
-                          x.style.display = "none";
-                        }
+                    function myFunction() {
+                      var x = document.getElementById("myDIV");
+                      if (x.style.display === "none") {
+                        x.style.display = "block";
+                      } else {
+                        x.style.display = "none";
                       }
+                    }
                     </script>
                     <hr>
                     <a name="hoofdstuk1"></a>
