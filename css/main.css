@@ -7177,14 +7177,13 @@ hr:after {
     font-weight: 700;
     text-align: right; } }
 
-marker {
+.markeryellow {
+  background-color: #FFFF00;
   padding: 2px; }
 
-marker .yellow {
-  background-color: #FFFF00; }
-
-marker .blue {
-  background-color: #00FFFF; }
+.markerblue {
+  background-color: #00FFFF;
+  padding: 2px; }
 
 span.tldr {
   font-family: 'Playfair Display', serif;

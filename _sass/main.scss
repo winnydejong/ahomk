@@ -356,16 +356,14 @@ only screen and (max-width: 1023px) {
 }
 
 // mark
-marker {
+.markeryellow {
+    background-color: $yellow;
     padding: 2px;
 }
 
-marker .yellow {
-    background-color: $yellow;
-}
-
-marker .blue {
+.markerblue {
     background-color: $blue;
+    padding: 2px;
 }
 
 //tldr
