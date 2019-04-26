@@ -86,13 +86,13 @@
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
                     <p><br>PS. Heb je haast? Wil je snel naar de finish? Klik dan hier:<br>
-                      <a class="button" onclick="setTimeout()">Toon samenvatting</a> <a class="button">PDF met samenvatting</a></p>
+                      <a class="button" onclick="hidestuff()">Toon samenvatting</a> <a class="button">PDF met samenvatting</a></p>
                     <a name="inhoudsopgave"></a>
                     <hr>
                     <script>
-                      setTimeout( () => { // for demo
+                        hidestuff() {
                         document.querySelector( "body" ).classList.add( "hidden" );
-                      }, 1000 );
+                      }
                     </script>
                     <aside class="menu">
                         <p class="menu-label">
