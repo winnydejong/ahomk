@@ -35,7 +35,17 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff00ff">
     <meta name="msapplication-TileColor" content="#ff00ff">
     <meta name="theme-color" content="#ffffff">
-
+    <script type="text/javascript">
+      <!--
+          function toggle_visibility(class) {
+             var e = document.getElementByClass(class);
+             if(e.style.display == 'block')
+                e.style.display = 'none';
+             else
+                e.style.display = 'block';
+          }
+      //-->
+     </script>
   </head>
   <body>
     <section>
@@ -66,7 +76,7 @@
             <div class="content">
                     <p>Om maar meteen met de deur in huis te vallen: een goede journalist kan rekenen. Want een journalist die niet kan rekenen, is eenvoudig te misleiden. En dat is precies wat je niet wilt, als waarheidsvinding je vak is. </p>
                     <p>Misschien ben je wel journalist geworden omdat de journalistiek &lsquo;zo lekker alpha&rsquo; is, en de beta-vakken &lsquo;niet aan jou besteed waren&rsquo;. Wij begrijpen het. Maar het verschil tussen &lsquo;goed met cijfers&rsquo; en &lsquo;getallen zijn niet m’n ding&rsquo; is werk. </p>
-                    <p>Wij zijn er om jou met dit beetje, maar essentiële werk te helpen. Ga er lekker voor zitten - kopje koffie erbij? - en leer de basisprincipes van cijfers op Als Het Ongeveer Maar Klopt. De totale leestijd is zo’n vijftien á twinig minuten, verdeeld over vijf hoofdstukken.</p>
+                    <p>Wij zijn er om jou met dit essentiële werk te helpen. Ga er lekker voor zitten - kopje koffie erbij? - en leer de basisprincipes van cijfers op Als Het Ongeveer Maar Klopt. De totale leestijd is zo’n vijftien á twinig minuten, verdeeld over vijf hoofdstukken.</p>
                   </div>
                 </div>
                 <div class="column is-2 is-hidden-touch">
@@ -82,20 +92,11 @@
                   <div class="content">
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
-                    <p>PS. Heb je haast en wil je sneller cijferwijzer worden? <span class="click-to-toggle">Klik hier voor een samenvatting - klik nogmaals voor het opnieuw tonen van de volledige tekst</span>. Of <a href="#">download hier de samenvatting (PDF)</a>.</p>
-                    <script>
-                      function tldrToggle() {
-                        var x = document.getElementByClass("toggle");
-                        if (x.style.display === "none") {
-                          x.style.display = "block";
-                        } else {
-                          x.style.display = "none";
-                        }
-                      }
-                    </script>
+                    <p>PS. Heb je haast? Wil je snel naar de finish? Klik dan hier:
+                      <a class="button" onclick="toggle_visibility('weg');">Toon samenvatting</a> <a class="button">PDF met samenvatting</a></p>
                     <a name="inhoudsopgave" class="toggle"></a>
                     <hr>
-                    <aside class="menu myDIV">
+                    <aside class="menu weg">
                         <p class="menu-label">
                             Inhoudsopgave
                         </p>
