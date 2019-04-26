@@ -82,20 +82,15 @@
                     <p>Veel plezier!</p>
                     <p class="has-text-centered">Lars en Winny</p>
                     <p>PS. Heb je haast? Wil je snel naar de finish? Klik dan hier:<br>
-                      <a class="button" onclick="toggleVisibility('weg');">Toon samenvatting</a> <a class="button">PDF met samenvatting</a></p>
-                    <a name="inhoudsopgave" class="toggle"></a>
+                      <a class="button" onclick="hide()">Toon samenvatting</a> <a class="button">PDF met samenvatting</a></p>
+                    <a name="inhoudsopgave"></a>
                     <hr>
                     <script>
-                      function toggleVisibility() {
-                        var x = document.getElementById("myDIV");
-                        if (x.style.display === "none") {
-                          x.style.display = "block";
-                        } else {
-                          x.style.display = "none";
-                        }
-                      }
+                      setTimeout( () => { // for demo
+                        document.querySelector( "body" ).classList.add( "hidden" );
+                      }, 1000 );
                     </script>
-                    <aside class="menu myDIV">
+                    <aside class="menu">
                         <p class="menu-label">
                             Inhoudsopgave
                         </p>
@@ -110,7 +105,7 @@
                         </ol>
                     </aside>
                     <a name="hoofdstuk1"></a>
-                    <h2 id="verandering" class="toggle"><span class="hfdnr toggle">01</span> Verandering</h2>
+                    <h2 id="verandering"><span class="hfdnr">01</span> Verandering</h2>
                     <h3>Breuken en percentages</h3>
                     <p>Onze liefde voor cijfers is geen pizza: het gaat nooit op. Journalistieke onderwerpen daarentegen zijn vaak wel eindig. Zo worden er bij de Tweede Kamerverkiezingen precies 150 zetels verdeeld; op Prinsjesdag wordt het geld verdeeld - maar geen cent teveel; en uit een pizza haal je ook maar zoveel punten. </p>
                   </div>
@@ -141,7 +136,7 @@
                       <img src="./img/1.03.jpg">
                     </figure>
                     <p>Met 150 als noemer, wordt het al lastiger om de noemer om te zetten naar 100. Je kunt daarom een ezelsbruggetje gebruiken.</p>
-                    <article class="message box tldrToggle">
+                    <article class="message box">
                         <span class="tldr">tl;dr</span>
                         <h4>Deel van het geheel</h4>
                         <p>Hoeveel procent is een deel van het geheel?</p>

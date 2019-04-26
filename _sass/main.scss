@@ -189,6 +189,12 @@ only screen and (min-width: 769px) and (max-width: 1087px) {
     display: inline;
 }
 
+// set visibility samenvatting
+article, h2, h3 {
+    visibility: visible !important;
+}
+
+
 // hoofdstuk titels
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-family: $family-primary;
