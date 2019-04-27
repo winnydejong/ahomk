@@ -7046,7 +7046,7 @@ span.handrechtsspecial {
   margin: 10px 10px 10px 0px;
   display: inline; }
 
-article, h2, h3 {
+article, h2, h3, table {
   visibility: visible !important; }
 
 .content h1,
