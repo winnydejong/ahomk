@@ -101,11 +101,41 @@
                             <li><a href="#hoofdstuk9"><b>Vrienden</b> <small class="has-text-right">recensies *****</small></a></li>
                         </ol>
                     </aside>
-                    <p><br><br>Deadlinestress? Geen probleem, check hier de samenvatting van Als Het Ongeveer Maar Klopt:<br>
-                      <a class="button" onclick="hidestuff()">Lees de samenvatting online</a> <a class="button">Download samenvatting als PDF</a></p>
+                    <p><br><br>Deadlinestress? Geen probleem, check <a class="button" onclick="hidestuff()">de samenvatting van Als Het Ongeveer Maar Klopt</a> - ook <a href="#">te downloaden als PDF</a>, btw.</p>
                     <script>
                         hidestuff() {
-                        document.querySelector( "body" ).classList.add( "hidden");
+                          // Show an element
+                          var show = function (elem) {
+                            elem.classList.add('is-visible');
+                          };
+
+                          // Hide an element
+                          var hide = function (elem) {
+                            elem.classList.remove('is-visible');
+                          };
+
+                          // Toggle element visibility
+                          var toggle = function (elem) {
+                            elem.classList.toggle('is-visible');
+                          };
+
+                          // Listen for click events
+                          document.addEventListener('click', function (event) {
+
+                            // Make sure clicked element is our toggle
+                            if (!event.target.classList.contains('toggle')) return;
+
+                            // Prevent default link behavior
+                            event.preventDefault();
+
+                            // Get the content
+                            var content = document.querySelector(event.target.hash);
+                            if (!content) return;
+
+                            // Toggle the content
+                            toggle(content);
+
+                          }, false);
                       }
                     </script>
                     <br>
