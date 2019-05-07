@@ -7070,7 +7070,8 @@ content h2:not(:first-child) {
   line-height: 4.9rem;
   margin-top: 1.1428em;
   text-align: center;
-  display: block; }
+  display: block;
+  font-style: normal !important; }
 
 span.hfdnr {
   color: #FF00FF; }
@@ -7166,47 +7167,47 @@ hr:after {
     margin-left: -150px; } }
 
 @media only screen and (max-width: 1023px) {
-  table-wetenschap td:nth-of-type(1):before {
+  .table-wetenschap td:nth-of-type(1):before {
     content: "Wetenschappelijk";
     font-weight: 700;
     text-align: right; }
-  table-wetenschap td:nth-of-type(2):before {
+  .table-wetenschap td:nth-of-type(2):before {
     content: "Lange schaal";
     font-weight: 700;
     text-align: right; }
-  table-wetenschap td:nth-of-type(3):before {
+  .table-wetenschap td:nth-of-type(3):before {
     content: "Korte schaal";
     font-weight: 700;
     text-align: right; }
-  table-wetenschap td:nth-of-type(4):before {
+  .table-wetenschap td:nth-of-type(4):before {
     content: "Uitgeschreven";
     font-weight: 700;
     text-align: right; } }
 
 @media only screen and (max-width: 1023px) {
-  table-spreadsheet td:nth-of-type(1):before {
+  .table-spreadsheet td:nth-of-type(1):before {
     content: "functie";
     font-weight: 700;
     text-align: right; }
-  table-spreadsheet td:nth-of-type(2):before {
+  .table-spreadsheet td:nth-of-type(2):before {
     content: "Nederlands";
     font-weight: 700;
     text-align: right; }
-  table-spreadsheet td:nth-of-type(3):before {
+  .table-spreadsheet td:nth-of-type(3):before {
     content: "Engels";
     font-weight: 700;
     text-align: right; } }
 
 @media only screen and (max-width: 1023px) {
-  table-ongelijk td:nth-of-type(1):before {
-    content: "categorie";
+  .table-ongelijk td:nth-of-type(1):before {
+    content: "";
     font-weight: 700;
     text-align: right; }
-  table-ongelijk table-ongelijk td:nth-of-type(2):before {
+  .table-ongelijk td:nth-of-type(2):before {
     content: "Amsterdam";
     font-weight: 700;
     text-align: right; }
-  table-ongelijk table-ongelijk td:nth-of-type(3):before {
+  .table-ongelijk td:nth-of-type(3):before {
     content: "Leeuwarden";
     font-weight: 700;
     text-align: right; } }
