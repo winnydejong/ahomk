@@ -1,4 +1,4 @@
-<a href="https://alshetongeveermaarklopt.nl"><img src="https://alshetongeveermaarklopt.nl/img/header.png" alt="Als Het Ongeveer Maar Klopt -- maakt journalisten cijferwijzer" style="max-width:100%;" width="600" height="315"></a>
+<a href="https://alshetongeveermaarklopt.nl" target="_blank"><img src="https://alshetongeveermaarklopt.nl/img/header.png" alt="Als Het Ongeveer Maar Klopt -- maakt journalisten cijferwijzer" style="max-width:100%;"></a>
 
 Een journalist die niet kan rekenen is eenvoudig te misleiden. Omdat naar hun smaak te veel journalisten onvoldoende kunnen rekenen; en creeren altijd beter is dan klagen; besloten Lars Boogaard en Winny de Jong zelf aan een antwoord te werken. Dat resulteerde een online gids te maken om journalisten cijferwijzer te maken: <a href="https://alshetongeveermaarklopt.nl" target="_blank">Als Het Ongeveer Maar Klopt</a>.
 
