@@ -7166,37 +7166,33 @@ hr:after {
     margin-left: -150px; } }
 
 @media only screen and (max-width: 1023px) {
-  table-wetenschap, thead, tbody, th, td, tr {
-    display: block; }
-  td:nth-of-type(1):before {
+  table-wetenschap td:nth-of-type(1):before {
     content: "Wetenschappelijk";
     font-weight: 700;
     text-align: right; }
-  td:nth-of-type(2):before {
+  table-wetenschap td:nth-of-type(2):before {
     content: "Lange schaal";
     font-weight: 700;
     text-align: right; }
-  td:nth-of-type(3):before {
+  table-wetenschap td:nth-of-type(3):before {
     content: "Korte schaal";
     font-weight: 700;
     text-align: right; }
-  td:nth-of-type(4):before {
+  table-wetenschap td:nth-of-type(4):before {
     content: "Uitgeschreven";
     font-weight: 700;
     text-align: right; } }
 
 @media only screen and (max-width: 1023px) {
-  table-spreadsheet, thead, tbody, th, td, tr {
-    display: block; }
-  td:nth-of-type(1):before {
+  table-spreadsheet td:nth-of-type(1):before {
     content: "functie";
     font-weight: 700;
     text-align: right; }
-  td:nth-of-type(2):before {
+  table-spreadsheet td:nth-of-type(2):before {
     content: "Nederlands";
     font-weight: 700;
     text-align: right; }
-  td:nth-of-type(3):before {
+  table-spreadsheet td:nth-of-type(3):before {
     content: "Engels";
     font-weight: 700;
     text-align: right; } }
