@@ -7205,7 +7205,7 @@ hr:after {
   table-ongelijk, thead, tbody, th, td, tr {
     display: block; }
   td:nth-of-type(1):before {
-    content: "categorie";
+    content: "";
     font-weight: 700;
     text-align: right; }
   td:nth-of-type(2):before {
