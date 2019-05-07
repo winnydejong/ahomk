@@ -17,5 +17,11 @@ Zonder koffie en nerd-humor was deze site er niet gekomen. Maar behalve elkaar, 
 
 <p>Wanneer <a href="https://twitter.com/winnydejong" target="_blank">Winny de Jong</a>  niet bij de NOS aan het werk is; dan leest, schrijft of denkt ze wel over haar vak. Zo verzamelt ze elke week <a href="https://datajournalistiek.nl/nieuwsbrief" target="_blank" class="nieuwsbrieflink">het beste van het datajournalistieke web</a> in haar Engelstalige nieuwsbrief. Omdat creëren altijd beter is dan klagen, maakte ze samen met Lars deze website. Naast werk heeft ze ook andere hobbies: zo leert Winny Portugees en sport ze regelmatig. <em>Até logo!</em></p>
 
-## Copyright and license
-Als Het Ongeveer Maar Klopt is gepubliceerd onder een <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/nl/" target="_blank">CC BY SA NC</a> Creative Commons licentie.
+## Copyright
+Als Het Ongeveer Maar Klopt is gepubliceerd onder een <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/nl/" target="_blank">CC BY SA NC</a> Creative Commons licentie. Dit betekent dat je, onder voorwaarden, vrij bent om het werk te delen — te kopiëren, te verspreiden en door te geven via elk medium of bestandsformaat; en om het werk te bewerken — te remixen, te veranderen en afgeleide werken te maken.
+
+De volgende voorwaarden zijn van toepassing:
+- De gebruiker dient de maker van het werk te vermelden, een link naar de licentie te plaatsen en aan te geven of het werk veranderd is. Je mag dat op redelijke wijze doen, maar niet zodanig dat de indruk gewekt wordt dat de licentiegever instemt met je werk of je gebruik van het werk.
+- Je mag het werk niet gebruiken voor commerciële doeleinden.
+- Als je het werk hebt geremixt, veranderd, of op het werk hebt voortgebouwd, moet je het veranderde materiaal verspreiden onder dezelfde licentie als het originele werk.
+- Je mag geen juridische voorwaarden of technologische voorzieningen toepassen die anderen er juridisch in beperken om iets te doen wat de licentie toestaat.
