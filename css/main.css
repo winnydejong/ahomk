@@ -7015,6 +7015,9 @@ span.handrechtsspecial {
   margin-left: 5px;
   padding-bottom: 4px; }
 
+span.pink {
+  color: #FF00FF; }
+
 @media only screen and (min-width: 769px) and (max-width: 1087px) {
   .column.is-6, .column.is-6-tablet {
     flex: none;
