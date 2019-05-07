@@ -390,6 +390,30 @@ only screen and (max-width: 1023px) {
     }
 }
 
+@media
+only screen and (max-width: 1023px) {
+    table-ongelijk, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    td:nth-of-type(1):before {
+        content: "kiesgerechtigden";
+        font-weight: 700;
+        text-align: right;
+    }
+    td:nth-of-type(2):before {
+        content: "stemmen PvdA";
+        font-weight: 700;
+        text-align: right;
+    }
+    td:nth-of-type(3):before {
+        content: "opkomst";
+        font-weight: 700;
+        text-align: right;
+    }
+}
+
+
 // mark
 .markeryellow {
     background-color: $yellow;
