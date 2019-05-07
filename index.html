@@ -101,53 +101,7 @@
                             <li><a href="#hoofdstuk9"><b>Vrienden</b> <small class="has-text-right">recensies *****</small></a></li>
                         </ol>
                     </aside>
-                    <p><br>Deadlinestress? Geen probleem, check <a onclick="hidestuff()">de samenvatting van Als Het Ongeveer Maar Klopt</a> - ook <a href="#">te downloaden als PDF</a>, btw.</p>
-                    <script type="text/javascript">
-                    <!--
-                        function toggle_visibility() {
-                           if(e.style.display == 'block')
-                              e.style.display = 'none';
-                           else
-                              e.style.display = 'block';
-                        }
-                    //-->
-                    </script>
-                    <script>
-                        hidestuff() {
-                          // Show an element
-                          var show = function (elem) {
-                            elem.classList.add('is-visible');
-                          };
-
-                          // Hide an element
-                          var hide = function (elem) {
-                            elem.classList.remove('is-visible');
-                          };
-
-                          // Toggle element visibility
-                          var toggle = function (elem) {
-                            elem.classList.toggle('is-visible');
-                          };
-
-                          // Listen for click events
-                          document.addEventListener('click', function (event) {
-
-                            // Make sure clicked element is our toggle
-                            if (!event.target.classList.contains('toggle')) return;
-
-                            // Prevent default link behavior
-                            event.preventDefault();
-
-                            // Get the content
-                            var content = document.querySelector(event.target.hash);
-                            if (!content) return;
-
-                            // Toggle the content
-                            toggle(content);
-
-                          }, false);
-                      }
-                    </script>
+                    <p><br>Deadlinestress? Geen probleem: download de <a href="">samenvatting van Als Het Ongeveer Maar Klopt (PDF)</a>.</p>
                     <br>
                     <hr>
                     <a name="hoofdstuk1"></a>
@@ -249,7 +203,42 @@
               <div class="columns">
                 <div class="column is-6 is-offset-3">
                   <div class="content">
-                    <h3>Ongelijke getallen vergelijken</h3><p>XXX MOET NOG XXX</p>
+                    <h3>Ongelijke getallen vergelijken</h3>
+                    <p>Met de deel van geheel-berekening kun je meer dan alleen percentages berekenen, je kunt er ook ongelijke getallen mee vergelijken. We blijven nog even bij de verkiezingsuitslag, maar we zoomen in naar lokaal niveau. </p>
+                    <p>In 2017 kreeg de PvdA in Amsterdam 38.300 stemmen. Dat zijn er een stuk meer dan in Leeuwarden, waar 6.900 mensen op de PvdA stemden. Als je wilt bepalen waar de PvdA het grootst is, heb je niet zoveel aan deze absolute vergelijking. In inwonertal is Amsterdam (863.000) groter dan Leeuwarden (123.000). Als je de stemmen op de PvdA in Amsterdam met de stemmen PvdA in Leeuwarden wilt vergelijken, moet je de uitslagen corrigeren voor de bevolking.</p>
+                    <p>Of preciezer gezegd: corrigeren voor het aantal kiesgerechtigden, want niet iedere inwoner mag stemmen. En omdat stemmen in Nederland niet verplicht is, moet je de uitslag ook corrigeren voor de opkomst. Twee correcties, dat betekent twee berekeningen.</p>
+                    <p>Om het je makkelijk te maken, hebben we alle relevante cijfers op een rijtje gezet:</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.09.jpg">
+                    </figure>
+                    <p>Met deze cijfers kunnen we onze vergelijking maken. We beginnen met de opkomst: het aantal stemmers (deel), ten opzichte van het aantal kiesgerechtigden (geheel).</p>
+                    <p>In het geval van Amsterdam weten we de opkomst als percentage: 78,9%. Of anders gezegd: van de 100 kiesgerechtigden, gingen er 78,9 naar de stembus. We weten ook hoeveel 100% is: namelijk 585.340 kiesgerechtigden, wat wij willen weten is hoeveel 78,9% van 585.340 is.</p>
+                    <p>In één berekening van 100 naar 78,9 vereist wat denkwerk. Maar we hebben geen haast, dus gaan we voor de makkelijke weg en doen we het in <span class="markeryellow">twee stappen</span> die nauwelijks denkwerk kosten. Let op:</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.10.jpg">
+                    </figure>
+                    <p>Om van 100 naar 78,9 te gaan, <span class="markeryellow">deel je eerst door 100</span> en <span class="markerblue">vermenigvuldig je daarna met 78,9</span>. Op diezelfde manier kunnen we nu ook berekenen hoeveel 78,9% van 585.340 is:</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.11.jpg">
+                    </figure>
+                    <p>Dit doe je ook voor Leeuwarden:</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.12.jpg">
+                    </figure>
+                    <p>Beide uitslagen hebben we nu gecorrigeerd voor de opkomst. Nu gaan we de cijfers corrigeren voor de bevolking. Om Amsterdam en Leeuwarden te kunnen vergelijken, kijken we naar de uitslag per 1000 stemmen. Dit doe je eerst door het totaal aantal stemmen te delen door 1000.</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.13.jpg">
+                    </figure>
+                    <p>Om in Amsterdam 461.833 stemmen terug te brengen tot 1000, moet je het dus delen door 461,83. Voor Leeuwarden moet je het delen door 89,94. Dit doe je ook voor het aantal PvdA-stemmers, zodat je weet hoe die zich verhouden tot 1000 stemmen.</p>
+                    <figure class="image is-9by5">
+                      <img src="./img/1.14.jpg">
+                    </figure>
+                    <p>Van de 1000 stemmen waren er in Leeuwarden 101 voor de PvdA. In Amsterdam waren dat er 83 op de 1000. Doordat we de factor bevolking hebben weggenomen, zijn de getallen goed met elkaar te vergelijken.</p>
+                    <article class="message box samenvatting">
+                        <span class="tldr">tl;dr</span>
+                        <h4>Getallen vergelijken</h4>
+                        <p>Om getallen met elkaar te kunnen vergelijken, moet je ze afzetten tegen een gelijke. XXX NOG EVEN NAAR KIJKEN? XXX</p>
+                    </article>
                     <content class="has-text-right">
                       <p class="terug"><a href="#inhoudsopgave">Terug naar overzicht <span class="terughand"></span></a></p>
                     </content>
@@ -338,7 +327,7 @@
                         <li>je kent de uitersten: minimum en maximum</li>
                         <li>je kent het rekenkundig gemiddelde</li>
                         <li>je weet welk getal het vaakst voorkomt, de modus</li>
-                        <li>je weet welk getal 't midden van de reeks is, de mediaam</li>
+                        <li>je kunt iets zeggen over de verdeling van de cijfers met behulp van de mediaan en de kwartielen</li>
                     </ul>
                     <h3>Boxplot</h3>
                     <p>Wil je helemaal grip krijgen op de cijfers, dan kun je ervoor kiezen om je cijfers in beeld te brengen. Dat kan met een boxplot, een visuele weergave van de verdeling van je gegevens. Een boxplot tekenen is heel eenvoudig: eerst spaneer je het <span class="markeryellow">minimum en het maximum</span>.</p>
@@ -452,7 +441,7 @@
                         <tr>
                           <td>10<super>21</super></td>
                           <td>triljard</td>
-                          <td>sixtillion</td>
+                          <td>sextillion</td>
                           <td>1.000.000.000.000.000.000.000</td>
                         </tr>
                         <tr>
