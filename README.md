@@ -3,7 +3,9 @@
 Een journalist die niet kan rekenen is eenvoudig te misleiden. Omdat naar hun smaak te veel journalisten onvoldoende kunnen rekenen; en creeren altijd beter is dan klagen; besloten Lars Boogaard en Winny de Jong zelf aan een antwoord te werken. Dat resulteerde een online gids te maken om journalisten cijferwijzer te maken: <a href="https://alshetongeveermaarklopt.nl" target="_blank">Als Het Ongeveer Maar Klopt</a>.
 
 ## Bronnen
-Zonder koffie en nerd-humor was deze site er niet gekomen. Maar behalve elkaar, willen we graag Hugo van der Parre bedanken voor de onbewuste titelsuggestie; Daniel Verlaan voor de <em>single page</em> inspiratie; en Sanne Blauw voor de term ‘cijferwijzer’. Hoofdstuk twee is geinspireerd door het boek ‘Cijfers in het Nieuws’ door Willem Koetsenruijter en Rinke Berkenbosch - hoofdstuk vier is deels gebaseerd op Winny’s essay voor het <em>Data Journalism Handbook</em>. Verder maakt deze website dankbaar gebruik van de volgende open bronnen:
+Zonder koffie en nerd-humor was deze site er niet gekomen. Maar behalve elkaar, willen we graag Hugo van der Parre bedanken voor de onbewuste titelsuggestie; Daniel Verlaan voor de single page inspiratie; en Sanne Blauw omdat we de term ‘cijferwijzer’ voor het eerst in haar nieuwsbrief lazen. Hoofdstuk twee is geïnspireerd door het boek ‘Cijfers in het Nieuws’ door Willem Koetsenruijter en Rinke Berkenbosch; en hoofdstuk vier is deels gebaseerd op Winny’s essay voor het Data Journalism Handbook. Verder maakt deze website dankbaar gebruik van de volgende open bronnen:
+
+
 
 <ul>
     <li><a href="https://jekyllrb.com/" target="_blank">Jekyll framework</a></li>
